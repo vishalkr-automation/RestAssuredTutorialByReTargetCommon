@@ -93,8 +93,8 @@ public class Video_33_ValidateJSONSchema {
 				+ "    \"additionalneeds\" : \"Breakfast\"\r\n"
 				+ "}";
 		                
-				        MatcherAssert.assertThat(json,
-				        JsonSchemaValidator.matchesJsonSchemaInClasspath("CreateBookingResponseSchema2.json"));
+				        MatcherAssert.assertThat(
+				        json, JsonSchemaValidator.matchesJsonSchemaInClasspath("CreateBookingResponseSchema2.json"));
 				           
 	}
 }

@@ -46,6 +46,8 @@ public class Video_28_ReadJsonPath_Tricky_JSONArray_And_NestedJSONArray {
 				+ "]";
 		
 		JsonPath jsonPath=new JsonPath(jsonArr);
+		System.out.println(jsonArr);
+		
 		String city1=jsonPath.get("[0].address[0].City");
 		System.out.println(city1);
 		

@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Video_65_HowToExtractValueFromDynamicJSONResponseUsingPOJOClass_JSONIgnoreProperties {
 	
+	//Here for skills attribute value we did not create the getter and setter methods in Video_65_Employee
+	//So using @JsonIgnoreProperties(ignoreUnknown = true) we will not get any error
 	@Test
 	public void f1() throws Exception {
 		

@@ -18,7 +18,7 @@ public class Video_29_ReadJsonPath_FromSimpleAndNestedJSONArray {
 				+ "  \"30\",\r\n"
 				+ "  \"40\"\r\n"
 				+ "]";
-		
+		System.out.println(jsonArr);
 		JsonPath jsonPath=new JsonPath(jsonArr);
 		//System.out.println(jsonPath.get("[0]"));
 		System.out.println(jsonPath.getList("$").size());
@@ -44,16 +44,18 @@ public class Video_29_ReadJsonPath_FromSimpleAndNestedJSONArray {
 				+ "  \r\n"
 				+ "]";
 		
+		System.out.println(jsonArr);
+		
 		JsonPath jsonPath=new JsonPath(jsonArr);
 		//System.out.println(jsonPath.get("[1][2]"));
 		
 		//Class to use convert String data to JSON Array
-//		JSONArray jsonArray =new JSONArray(jsonArr);
-//		System.out.println(jsonArray);             
+		JSONArray jsonArray =new JSONArray(jsonArr);
+		System.out.println(jsonArray);             
 		
 		//Class to use convert String data to JSON Object
-//		JSONObject jsonObject=new JSONObject(jsonArr);
-//		System.out.println(jsonObject.to);
+		//JSONObject jsonObject=jsonArray.getJSONObject(0);
+		//System.out.println(jsonObject.toString());
 		
 		//This method we can reterive the size of internal array
 		List<Object> list=((List<Object>) jsonPath.getList("$").get(0));

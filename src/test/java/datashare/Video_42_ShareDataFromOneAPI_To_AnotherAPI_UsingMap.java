@@ -37,7 +37,7 @@ public class Video_42_ShareDataFromOneAPI_To_AnotherAPI_UsingMap {
 	         .extract()
 	         .jsonPath()
 	         .getInt("bookingid");
-		DataStoreAsMap.setValue(Constants.BOOKING_ID, id);
+		DataStoreAsMap.setValue(Constants.BOOKING_ID , id);
 
 	}
 	

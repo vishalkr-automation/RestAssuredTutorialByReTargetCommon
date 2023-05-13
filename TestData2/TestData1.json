@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bhopal",
+               "short_name" : "Bhopal",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bhopal",
+               "short_name" : "Bhopal",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Madhya Pradesh",
+               "short_name" : "MP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bhopal, Madhya Pradesh, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.3326697,
+                  "lng" : 77.5748062
+               },
+               "southwest" : {
+                  "lat" : 23.0661497,
+                  "lng" : 77.2369767
+               }
+            },
+            "location" : {
+               "lat" : 23.2599333,
+               "lng" : 77.412615
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.3326697,
+                  "lng" : 77.5748062
+               },
+               "southwest" : {
+                  "lat" : 23.0661497,
+                  "lng" : 77.2369767
+               }
+            }
+         },
+         "place_id" : "ChIJvY_Wj49CfDkR-NRy1RZXFQI",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

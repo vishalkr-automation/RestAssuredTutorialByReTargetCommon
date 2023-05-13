@@ -9,7 +9,7 @@ import io.restassured.path.json.JsonPath;
 
 public class Video_30_ReadJSON_PathUsingFilters {
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void f1() {
 		String filePath=System.getProperty("user.dir")+".\\TestData\\People.json";
 		File file=new File(filePath);

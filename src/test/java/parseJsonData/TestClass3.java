@@ -1,4 +1,4 @@
- package payloadsexample;
+ package parseJsonData;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
 import io.restassured.RestAssured;
 import io.restassured.common.mapper.TypeRef;
 
-public class Video_39_Convert_JSONResponseToJavaMap {
+public class TestClass3 {
 	
 	@Test(enabled=true)
 	public void f1() {

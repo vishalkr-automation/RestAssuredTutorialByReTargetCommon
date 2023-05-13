@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-public class Video_6_RefactorPostRequest {
+public class Video_06_RefactorPostRequest {
 
 	public static void main(String[] args) {
 		

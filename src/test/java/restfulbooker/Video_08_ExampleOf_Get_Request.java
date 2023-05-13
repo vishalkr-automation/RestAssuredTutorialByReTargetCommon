@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-public class Video_8_ExampleOf_Get_Request {
+public class Video_08_ExampleOf_Get_Request {
 
 	public static void main(String[] args) {
 		//getRequestUsingGenericMethod();

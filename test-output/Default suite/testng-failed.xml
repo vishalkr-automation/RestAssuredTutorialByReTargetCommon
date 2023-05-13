@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lombookExample.Video_70_HowToUseBuilderAnnotaionOfLombok">
+      <class name="payloadsexample.Video_36_CreateSimpleJSON_Array">
         <methods>
           <include name="f"/>
+          <include name="f2"/>
         </methods>
-      </class> <!-- lombookExample.Video_70_HowToUseBuilderAnnotaionOfLombok -->
+      </class> <!-- payloadsexample.Video_36_CreateSimpleJSON_Array -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

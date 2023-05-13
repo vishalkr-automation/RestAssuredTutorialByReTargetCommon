@@ -31,7 +31,7 @@ public class Video_41_HandlingDynamicJSONResponse {
 	
 	//Solution of above issue
 	
-	@Test
+	@Test(enabled=true)
 	public void f2() {
 		//Response response=RestAssured.get("https://run.mocky.io/v3/d94018cd-c55f-4f61-9ad7-437242b69f2a");
 		Response response=RestAssured.get("https://run.mocky.io/v3/f0d92ffd-75ad-4379-a3cb-6171bbb5bd57");
@@ -43,7 +43,7 @@ public class Video_41_HandlingDynamicJSONResponse {
 		}
 		else if(responseObject instanceof Map) {
 			Map responseAsMap=(Map)responseObject;
-			System.out.println(((Map)responseAsMap).keySet());
+			System.out.println(responseAsMap.keySet());
 		}
 	}
 

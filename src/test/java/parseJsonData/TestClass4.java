@@ -1,4 +1,4 @@
-package convertJSONObjectResponseToPOJO;
+package parseJsonData;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.path.json.JsonPath;
 
-public class Video_59_ConvertJsonObjectToDynamicPayloadWithoutPOJOUsingJackson {
+public class TestClass4 {
 	
 	@Test(enabled=false)
 	public void f1() throws IOException {

@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 
 public class Video_36_CreateSimpleJSON_Array {
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void f() {
 		Map<String, Object> ParentMap=new LinkedHashMap<>();
 		

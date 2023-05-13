@@ -8,7 +8,7 @@ import io.restassured.common.mapper.TypeRef;
 
 public class Video_40_Convert_JSONResponseToJavaList {
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void f1() {
 		List allEmp=RestAssured
 		.get("https://run.mocky.io/v3/d94018cd-c55f-4f61-9ad7-437242b69f2a")
@@ -35,7 +35,7 @@ public class Video_40_Convert_JSONResponseToJavaList {
 		
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void f3() {
 		//Make generic type of List Object
 		List<Map<String, Object>> jsonResponseAsMap=RestAssured
