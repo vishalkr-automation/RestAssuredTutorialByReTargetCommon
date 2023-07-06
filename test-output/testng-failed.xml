@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="payloadsexample.Video_36_CreateSimpleJSON_Array">
+      <class name="parseJsonData.TestClass1">
         <methods>
-          <include name="f"/>
-          <include name="f2"/>
+          <include name="f1"/>
         </methods>
-      </class> <!-- payloadsexample.Video_36_CreateSimpleJSON_Array -->
+      </class> <!-- parseJsonData.TestClass1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

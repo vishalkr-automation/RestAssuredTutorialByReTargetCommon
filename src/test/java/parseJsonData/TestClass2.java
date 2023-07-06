@@ -31,7 +31,7 @@ public class TestClass2{
 		
 	}
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void f() throws Exception, IOException, IOException {
 		
 		String filePath=System.getProperty("user.dir")+".\\TestData2\\TestData1.json";
@@ -58,7 +58,7 @@ public class TestClass2{
 		
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void f3() throws Exception, IOException, IOException {
 		
 		//Reference of this example - https://www.youtube.com/watch?v=h5VLKYOQOjM
